@@ -1,0 +1,257 @@
+/* Variables for website */
+:root {
+    --bgcolor: #030303;
+    --maincolor: #00e5b0;
+    --secondarycolor: #1d1c29;
+    --textcolor: #fff;
+    --padding1: 1rem;
+    --margin1: 1rem;
+    --fontsize1: 1rem;
+    --fontfamily1: 'Varela Round', Tahoma, Helvetica, Verdana, Arial, sans-serif;
+    --fontfamily2: 'Roboto', Tahoma, Helvetica, Verdana, Arial, sans-serif;
+  }
+  
+  /* Reset styles */
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  }
+
+  /* General styles */
+body {
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+    font-family: var(--fontfamily2);
+  }
+  
+  main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.postimg.cc/nL9FbHQ4/USAF-photographer.jpg');
+    background-size: cover;
+    backdrop-filter: blur(2px);
+  }
+
+  button {
+    background-color: var(--maincolor);
+    color: var(--bgcolor);
+    padding: var(--padding1);
+    font-weight: bold;
+    font-size: var(--fontsize1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid var(--maincolor);
+  }
+  
+  button:hover {
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+  }
+  
+  /* Header and Navigation styles */
+  .nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav-web {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: var(--fontfamily1);
+    list-style-type: none;
+    padding: var(--padding1);
+    background-color: var(--secondarycolor);
+    box-shadow: 0px 1px 5px rgba(81, 80, 80, 0.7);
+  }
+  
+  .nav-web a {
+    font-size: var(--fontsize1);
+    color: var(--textcolor);
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+  }
+  
+  .nav-web a:hover {
+    color: var(--maincolor);
+    border-bottom: solid 3px var(--maincolor);
+  }
+
+  .user-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 12px;
+    margin-right: 12px;
+  }
+  
+  .user-wrapper i {
+    color: var(--textcolor);
+    font-size: 1.25rem;
+  }
+  
+  .user-wrapper i:hover {
+    color: var(--maincolor);
+  }
+
+  .fa-cart-shopping::after {
+    content: attr(value);
+    font-size: 0.8rem;
+    color: var(--textcolor);
+    background: var(--secondarycolor);
+    border: 1px solid var(--maincolor);
+    border-radius: 50%;
+    padding: 4px 6px;
+    position: relative;
+    top: 5px;
+    opacity: 0.9;
+  }
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto; 
+}
+
+.payment-text {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem; 
+}
+
+.paying-methods {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-paypal,
+.fa-cc-apple-pay {
+    font-size: 2.5rem;
+    margin: 0.5rem; 
+}
+
+
+.paying-methods i {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.paying-methods i:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 100px;
+    background-color: transparent;
+    
+}
+
+.payment-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.paying-methods {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-paypal,
+.fa-cc-apple-pay {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+}
+
+.paying-methods i {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.paying-methods i:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+}
+
+/* To position the text above the logos */
+.payment-text {
+    margin-bottom: 1rem;
+    order: -1; /* Moves the text above the logos */
+}
+
+/* Products and Icons Section styles */
+.products-section,
+.icons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: var(--padding1) 0.5rem;
+  margin: var(--margin1) auto;
+}
+
+.products-container,
+.container-icons {
+  padding: var(--padding1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.icon-circle:hover{
+  background-color: var(--secondarycolor);
+  color: var(--textcolor);
+}
+
+.cat-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  width: 10rem;
+  height: 10rem;
+}
+
+.icon-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 4.375rem;
+  width: 4.375rem;
+  background-color: var(--maincolor);
+  border-radius: 50%;
+  padding: 0.625rem;
+  margin: 0.5rem;
+}
+
+.icon-title {
+  font-size: 1.2rem;
+  font-family: var(--fontfamily1);
+}
