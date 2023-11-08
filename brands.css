@@ -90,8 +90,7 @@ body {
     padding: var(--padding1);
   }
 
-  /* Products and Icons Section styles */
-.products-section,
+
 .icons-section {
   display: flex;
   flex-direction: column;
@@ -101,7 +100,6 @@ body {
   margin: var(--margin1) auto;
 }
 
-.products-container,
 .container-icons {
   padding: var(--padding1);
   display: flex;
@@ -315,15 +313,15 @@ footer input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px; /* Increased gap between the sections */
-    margin-top: 40px; /* Adjust as needed */
+    gap: 60px; /* Increased gap between the sections */
+    margin-top: 50px; /* Adjust as needed */
   }
   
   .brand-img,
   .brand-img2 {
     display: flex;
     align-items: center;
-    gap: 20px; /* Gap between images */
+    gap: 40px; /* Gap between images */
   }
   
   .text,
@@ -333,8 +331,6 @@ footer input{
   
   .brand-img img,
   .brand-img2 img {
-    width: 100px;
-    height: 80px;
     border-radius: 8px;
     transition: transform 0.3s ease;
   }
