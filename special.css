@@ -283,43 +283,9 @@ footer input{
   border-bottom: solid 3px var(--maincolor);
 }
 
-.shopping-cart{
-  background-color: var(--secondarycolor);
-}
-
-.cart-items img{
-    border: var(--maincolor) solid;
-  }
-  
-  .cart-summary h2 p{
-    text-align: center;
-  }
-  
-  .cart-items h2 p{
-    text-align: center;
-  }
-  
-  .cart-items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 65%;
-    height: auto;
-    padding: var(--padding1);
-    margin: var(--margin1) auto;
-  }
-  
-  .cart-summary{
-    flex-direction: column;
-    align-items: center;
-    width: 65%;
-    height: auto;
-    padding: var(--padding1);
-    margin: var(--margin1) auto;
-  }
-
-  .search {
+.search {
     background-color: transparent;
+    border: 2px solid var(--maincolor);
     padding: 0.5rem;
   }
   
@@ -331,7 +297,7 @@ footer input{
     padding: 0.5rem;
     max-width: 12rem;
     height: 1.5rem;
-    border:  2px solid var(--maincolor);
+    border: solid var(--maincolor);
     margin-top: 12px;
     margin-left: 12px;
   }
@@ -344,25 +310,75 @@ footer input{
     color: var(--textcolor);
     margin-right: 0.5rem;
   }
-  
- /* Shopping cart styles */
-.shopping-cart {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
+
+  .special-offers {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+}
+
+.items > div {
+    border: 1px solid var(--maincolor);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.items img{
   border: 2px solid var(--maincolor);
-  padding: var(--padding1) 0.5rem;
-  margin: var(--margin1) auto;
 }
 
-.shopping-cart button {
+.items > div p {
+  font-size: 18px;
+}
+
+#hearbutton{
+  width: 30%;
+}
+
+#addtoCart{
   width: 60%;
-  font-size: 1.1rem;
-  margin-bottom: var(--margin1);
 }
 
-.shopping-cart{
-  background-color: var(--bgcolor);
+.items > div:hover {
+  transform: scale(1.05);
 }
 
+/*
+.special-offers {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    border: 2px solid var(--maincolor);
+    background-color: var(--bgcolor);
+}
+
+.items button {
+    width: 30%;
+    font-size: 1.1rem;
+    margin-bottom: var(--margin1);
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img,
+.item5 img {
+    border: 2px solid var(--maincolor);
+}
+
+.items p {
+    font-size: large;
+    display: flex;
+}
