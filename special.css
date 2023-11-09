@@ -337,7 +337,7 @@ footer input{
   margin-top: 5px;
 }
 
-#hearbutton{
+#heartButton{
   width: 30%;
 }
 
@@ -353,6 +353,7 @@ footer input{
   width: 50%;
   height: 25%;
 }
+
 
 /*
 .special-offers {
