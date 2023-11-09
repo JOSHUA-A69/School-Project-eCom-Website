@@ -349,7 +349,10 @@ footer input{
   transform: scale(1.05);
 }
 
-
+.item2 #addtoCart{
+  width: 50%;
+  height: 25%;
+}
 
 /*
 .special-offers {
