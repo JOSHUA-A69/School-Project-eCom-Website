@@ -339,11 +339,13 @@ footer input{
 }
 
 #heartButton{
-  width: 60%;
+  width: 30%;
+  border-radius: 25%;
 }
 
 #addtoCart{
   width: 60%;
+  border-radius: 15%;
 }
 
 .items > div:hover {
