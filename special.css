@@ -333,7 +333,8 @@ footer input{
 }
 
 .items > div p {
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 #hearbutton{
@@ -347,6 +348,8 @@ footer input{
 .items > div:hover {
   transform: scale(1.05);
 }
+
+
 
 /*
 .special-offers {
