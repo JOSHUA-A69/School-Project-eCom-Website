@@ -146,6 +146,7 @@ body {
   width: 80%;
   font-size: 1.1rem;
   margin-bottom: var(--margin1);
+  border-radius: 20%;
 }
 
 /* Footer styles */
