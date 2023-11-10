@@ -142,13 +142,6 @@ body {
   font-family: var(--fontfamily1);
 }
 
-.shopping-cart button {
-  width: 80%;
-  font-size: 1.1rem;
-  margin-bottom: var(--margin1);
-  border-radius: 20%;
-}
-
 /* Footer styles */
 .footer-links {
   display: flex;
@@ -358,9 +351,10 @@ footer input{
 }
 
 .shopping-cart button {
-  width: 60%;
+  width: 45%;
   font-size: 1.1rem;
   margin-bottom: var(--margin1);
+  border-radius: 20%;
 }
 
 .shopping-cart{
