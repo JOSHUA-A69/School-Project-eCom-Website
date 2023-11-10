@@ -361,3 +361,6 @@ footer input{
   background-color: var(--bgcolor);
 }
 
+#fav{
+  width: 80%;
+}
