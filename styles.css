@@ -241,6 +241,10 @@ button:hover {
   margin: var(--margin1) auto;
 }
 
+.products-section button{
+  margin-top: 20px;
+}
+
 .products-container,
 .container-icons {
   padding: var(--padding1);

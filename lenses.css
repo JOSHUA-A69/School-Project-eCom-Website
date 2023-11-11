@@ -397,4 +397,7 @@ transform: scale(1.05);
   border-radius: 15%;
 }
 
+.products-section button{
+  margin-top: 20px;
+}
 

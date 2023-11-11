@@ -341,3 +341,7 @@ footer input{
     transform: scale(1.1);
   }
   
+  .products-section button{
+    margin-top: 20px;
+  }
+  
