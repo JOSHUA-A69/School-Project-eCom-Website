@@ -7,4 +7,4 @@ Our version: https://joshua-a69.github.io/School-Project-eCom-Website/index.html
 
 You are welcome to use this website as a template, or even better, create a customized version of it!
 
-NOTE: This website is not responsive as of now.
+NOTE: As of right now, this website is not responsive
