@@ -369,3 +369,7 @@ footer input{
   margin-top: 20px;
 }
 
+.heartButton{
+  width: 45%;
+  border-radius: 20%;
+}

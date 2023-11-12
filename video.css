@@ -339,12 +339,12 @@ footer input{
   margin-top: 5px;
 }
 
-#heartButton{
+.heartButton{
   width: 30%;
   border-radius: 25%;
 }
 
-#addtoCart{
+.addtoCart{
   width: 60%;
   border-radius: 15%;
 }
@@ -385,12 +385,12 @@ margin-top: 5px;
 transform: scale(1.05);
 }
 
-#heartButton{
+.heartButton{
   width: 30%;
   border-radius: 25%;
 }
 
-#addtoCart{
+.addtoCart{
   width: 60%;
   border-radius: 15%;
 }
