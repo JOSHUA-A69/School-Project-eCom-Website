@@ -312,9 +312,8 @@ footer input{
     margin: var(--margin1) auto;
   }
 
-  .search {
+  .Search {
     background-color: transparent;
-    padding: 0.5rem;
   }
   
   #search-input {
@@ -325,9 +324,9 @@ footer input{
     padding: 0.5rem;
     max-width: 12rem;
     height: 1.5rem;
-    border:  2px solid var(--maincolor);
-    margin-top: 12px;
-    margin-left: 12px;
+    border:  none;
+    margin-top: 18px;
+    margin-left: 22px;
   }
   
   #search-input:focus {
@@ -336,7 +335,7 @@ footer input{
   
   .fa-search {
     color: var(--textcolor);
-    margin-right: 0.5rem;
+    margin-left: 2rem;
   }
   
  /* Shopping cart styles */
