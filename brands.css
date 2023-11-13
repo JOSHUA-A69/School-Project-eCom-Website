@@ -283,7 +283,7 @@ footer input{
 }
 
 .Search {
-    background-color: transparent;
+    padding: 2rem;
   }
   
   #search-input {
