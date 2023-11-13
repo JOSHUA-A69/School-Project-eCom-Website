@@ -84,9 +84,10 @@ button:hover {
 }
 
 .company-name {
-  font-family: var(--fontfamily1);
+  font-family: var(--fontfamily2);
   font-size: 2rem;
   letter-spacing: 1px;
+  color: var(--secondarycolor);
 }
 
 .header-spans {
