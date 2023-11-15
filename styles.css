@@ -21,9 +21,12 @@
 
 /* General styles */
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--bgcolor);
   color: var(--textcolor);
   font-family: var(--fontfamily2);
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -326,7 +329,7 @@ main {
 footer {
 background-color: #333;
 color: #fff;
-padding: 30px;
+padding: 1rem;
 }
 
 /* Styles for footer menu */
@@ -453,8 +456,18 @@ footer input{
   }
 
   .nav {
-    width: 55%;
+    width: 100%;
     flex-direction: column;
+    position: static;
+  }
+
+  .nav-web{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-web a {
+    padding: 0.5 1rem;
   }
 
   #search-input {
@@ -578,7 +591,7 @@ footer input{
   }
 
   .nav {
-    width: 90%;
+    width: 100%;
     flex-direction: column;
   }
 
@@ -634,6 +647,10 @@ footer input{
 @media only screen and (max-width: 450px) {
   header {
     padding: 0.5rem 0;
+  }
+
+  .nav{
+    flex-direction: column;
   }
 
   #search-input {
