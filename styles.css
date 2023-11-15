@@ -439,145 +439,75 @@ footer input{
   border-bottom: solid 3px var(--maincolor);
 }
 
-/*
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--padding1);
-  background-color: var(--secondarycolor);                         /* scratch ni mga naka green, sagdi lang na!(wa nai gamit)
-  color: var(--textcolor);
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  color: var(--textcolor);
-  align-items: center;                                                            
-  padding: var(--padding1);                                         
-  background-color: var(--secondarycolor);
-  color: var(--textcolor);
-}
-.footer-menu {
-  display: flex;
-  justify-content: space-between;
-}
-.footer-nav-column {
-  flex: 1;
-  margin-right: 20px;
-}
-.footer-nav-container {
-  list-style: none;
-  padding-left: 0;
-}
-.footer-menu a {
-  color: var(--textcolor);
-  text-decoration: none;
-}
-.footer-menu a:hover {
-  color: var(--maincolor);
-  border-bottom: solid 3px var(--maincolor);
-}
-.desc-prod {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+/* Media queries for responsive design */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+  /* General styles */
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    flex-direction: column; 
+  }
+
+  .company-name {
+    font-size: 1.5rem; 
+  }
+
+  .search {
+    max-width: 8rem; 
+  }
+
+  .hero-content,
+  .hero-content-2 {
+    padding: 2rem; 
+  }
+
+  .hero-title,
+  .hero-title-2,
+  .hero-title-3,
+  .hero-desc {
+    font-size: 1.5rem; 
+  }
+
+  .hero-btn {
+    width: 100%; 
+  }
+
+  .products-section button {
+    margin-top: 10px; 
+  }
+
+  .products-container,
+  .container-icons {
+    flex-direction: column; 
+  }
+
+  .icon-circle,
+  .cat-icon {
+    width: 80%; 
+    height: 6rem; 
+  }
+
+  .shopping-cart button {
+    width: 100%; 
+  }
 }
 
-.summary-title {
-  font-family: var(--fontfamily1);
-  color: var(--maincolor);
-  letter-spacing: 1px;
-  margin-bottom: var(--margin1);
-}
-.cart-prod {
-  padding: var(--padding1);
-  margin: var(--margin1);
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 0.75rem;
-  border: 1px solid var(--secondarycolor);
-}
-.cart-prod img {
-  max-width: 40%;
-  height: auto;
-}
-.cart-prod .remove-btn {
-  background-color: transparent;
-  color: var(--textcolor);
-  padding: 0.25rem;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-}
-color: var(--textcolor);
-.cart-title {
-  font-family: var(--fontfamily1);
-  color: var(--maincolor);
-  letter-spacing: 1px;
-  text-align: center;
-}
-.cart-prod-container {
-  padding: var(--padding1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.summary-shopping-cart {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 95%;
-  margin-top: var(--margin1);
-}
-.order-desc {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: var(--margin1) 0;
-}
-.order-summary {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 65%;
-  height: auto;
-  border: 2px solid var(--maincolor);
-  padding: var(--padding1);
-  margin: var(--margin1) auto;
-}
-.cart-items img{
-  border: var(--maincolor) solid;
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
 }
 
-.cart-summary h2 p{
-  text-align: center;
+/* Large devices (desktops) */
+@media only screen and (min-width: 1025px) {
+
 }
 
-.cart-items h2 p{
-  text-align: center;
-}
-
-.cart-items{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 65%;
-  height: auto;
-  padding: var(--padding1);
-  margin: var(--margin1) auto;
-}
-
-.cart-summary{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 65%;
-  height: auto;
-  padding: var(--padding1);
-  margin: var(--margin1) auto;
+/* Extra-large devices (large desktops) */
+@media only screen and (min-width: 1441px) {
+  
 }
 
