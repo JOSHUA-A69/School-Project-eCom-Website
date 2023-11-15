@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #1d1c29;
+    background: linear-gradient(to right, #1d1c29, #242338);
     margin: 0;
 }
 
