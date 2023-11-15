@@ -442,7 +442,7 @@ footer input{
 
 /* Media Query: Max Width 800px */
 @media only screen and (max-width: 800px) {
-  .header {
+  header {
     padding: 0.5rem;
     flex-direction: column;
   }
@@ -452,7 +452,7 @@ footer input{
     margin: 1rem;
   }
 
-  .header-spans {
+  .nav {
     width: 55%;
     flex-direction: column;
   }
@@ -490,18 +490,6 @@ footer input{
     margin: 2.75rem 0;
   }
 
-  .hero-desc {
-    font-size: 1.25rem;
-  }
-
-  .img-products {
-    margin: 0.5rem;
-  }
-
-  .img-products img {
-    max-width: 10rem;
-  }
-
   .cat-icon {
     width: 7.5rem;
     height: 7.5rem;
@@ -526,7 +514,7 @@ footer input{
   }
 
   .footer-nav-column {
-    width: 25%;
+    width: 50%;
   }
 
   #subscribe-btn {
@@ -572,39 +560,15 @@ footer input{
 
 /* Media Query: Max Width 700px */
 @media only screen and (max-width: 700px) {
-  .img-products img {
-    max-width: 15rem;
-  }
-
-  .description {
-    font-size: 0.9rem;
-  }
-
-  .atc-btn,
-  .rm-btn {
-    margin-top: 1rem;
-  }
-
   button {
     padding: 0.75rem;
     font-size: 0.9rem;
-  }
-
-  .summary-shopping-cart {
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-  }
-
-  .shopping-cart,
-  .order-summary {
-    width: 60%;
   }
 }
 
 /* Media Query: Max Width 600px */
 @media only screen and (max-width: 600px) {
-  .header {
+  header {
     flex-direction: column;
     padding: 0;
   }
@@ -613,7 +577,7 @@ footer input{
     margin: 1rem;
   }
 
-  .header-spans {
+  .nav {
     width: 90%;
     flex-direction: column;
   }
@@ -646,10 +610,6 @@ footer input{
     margin: 1.3rem 0;
   }
 
-  .hero-desc {
-    font-size: 14px;
-  }
-
   .hero-btn {
     font-size: 8px;
     width: 8rem;
@@ -668,20 +628,11 @@ footer input{
   footer {
     padding: 0.5rem;
   }
-
-  .paying-methods {
-    justify-content: center;
-  }
-
-  .shopping-cart,
-  .order-summary {
-    width: 80%;
-  }
 }
 
 /* Media Query: Max Width 450px */
 @media only screen and (max-width: 450px) {
-  .header {
+  header {
     padding: 0.5rem 0;
   }
 
@@ -699,22 +650,14 @@ footer input{
     padding-top: 1rem;
   }
 
-  .hero-teatle {
-    font-size: 1.2rem;
-  }
-
   .hero-title-2 {
-    font-size: 14px ;
+    font-size: 14px;
     margin-bottom: 0;
   }
 
   .hero-title-3 {
     font-size: 1.2rem;
     margin: 1rem 0;
-  }
-
-  .hero-desc {
-    font-size: 0.9rem;
   }
 
   .hero-btn {
@@ -785,17 +728,13 @@ footer input{
     padding-top: 0.8rem;
   }
 
-  .hero-teatle,
-  .hero-teatle-2,
+  .hero-title,
+  .hero-title-2,
   .hero-title-3 {
     font-size: 18px;
   }
 
-  .hero-desc {
-    font-size: 0.75rem;
-  }
-
-  .header-spans {
+  .nav {
     flex-direction: column;
   }
 
@@ -804,15 +743,11 @@ footer input{
   }
 
   .user-wrapper i {
-    margin:  0 0;
+    margin: 0;
   }
 
   .subscribe {
     width: 90%;
     padding: 0.75rem;
-  }
-
-  .desc-prod {
-    gap: 0.5rem;
   }
 }
