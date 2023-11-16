@@ -445,6 +445,20 @@ footer input{
 
 /* Media Query: Max Width 800px */
 @media only screen and (max-width: 800px) {
+  body{
+    font-size: 22px;
+  }
+
+  main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/nL9FbHQ4/USAF-photographer.jpg');
+    background-size: cover;
+    backdrop-filter: blur(2px);
+  }
+
   header {
     padding: 0.5rem;
     flex-direction: column;
@@ -571,16 +585,41 @@ footer input{
   }
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  font-size: 14px; 
+}
+
+
 /* Media Query: Max Width 700px */
 @media only screen and (max-width: 700px) {
+
+body{
+  font-size: 14px;
+}
+
   button {
     padding: 0.75rem;
     font-size: 0.9rem;
   }
 }
 
+footer {
+  padding: 0.75rem;
+  font-size: 16px; 
+}
+
+
+
 /* Media Query: Max Width 600px */
 @media only screen and (max-width: 600px) {
+
+  body{
+   font-size: 12px;
+  }
+
   header {
     flex-direction: column;
     padding: 0;
@@ -640,11 +679,19 @@ footer input{
 
   footer {
     padding: 0.5rem;
+    font-size: 10px;
   }
 }
 
+
+
 /* Media Query: Max Width 450px */
 @media only screen and (max-width: 450px) {
+
+  body{
+    font-size: 10px;
+  }
+
   header {
     padding: 0.5rem 0;
   }
@@ -736,10 +783,20 @@ footer input{
   .order-summary {
     width: 90%;
   }
+
+  footer{
+    padding: 0;
+    font-size: 8px;
+  }
 }
 
 /* Media Query: Max Width 350px */
 @media only screen and (max-width: 350px) {
+
+  body{
+    font-size: 8px;
+  }
+
   .hero-content-2 {
     padding-left: 0.8rem;
     padding-top: 0.8rem;
@@ -766,5 +823,10 @@ footer input{
   .subscribe {
     width: 90%;
     padding: 0.75rem;
+  }
+
+  footer{
+    padding: 0;
+    font-size: 6px;
   }
 }
