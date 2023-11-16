@@ -329,7 +329,7 @@ main {
 footer {
 background-color: #333;
 color: #fff;
-padding: 1rem;
+padding: 30px;
 }
 
 /* Styles for footer menu */
@@ -443,7 +443,7 @@ footer input{
 }
 
 
-/* Media Query: Max Width 800px */
+/* 
 @media only screen and (max-width: 800px) {
   body{
     font-size: 22px;
@@ -454,9 +454,7 @@ footer input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('https://i.postimg.cc/nL9FbHQ4/USAF-photographer.jpg');
-    background-size: cover;
-    backdrop-filter: blur(2px);
+    background-color: var(--bgcolor);
   }
 
   header {
@@ -553,7 +551,7 @@ footer input{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 80%;
+    width: 25%;
     padding: 1rem;
   }
 
@@ -592,8 +590,15 @@ footer {
   font-size: 14px; 
 }
 
+footer input{
+  width: 20%;
+}
 
-/* Media Query: Max Width 700px */
+.user-wrapper{
+  width: 13%;
+}
+
+/* 
 @media only screen and (max-width: 700px) {
 
 body{
@@ -607,13 +612,13 @@ body{
 }
 
 footer {
-  padding: 0.75rem;
+  padding: 0.85rem;
   font-size: 16px; 
 }
 
 
 
-/* Media Query: Max Width 600px */
+/* 
 @media only screen and (max-width: 600px) {
 
   body{
@@ -685,7 +690,7 @@ footer {
 
 
 
-/* Media Query: Max Width 450px */
+/* 
 @media only screen and (max-width: 450px) {
 
   body{
@@ -790,7 +795,6 @@ footer {
   }
 }
 
-/* Media Query: Max Width 350px */
 @media only screen and (max-width: 350px) {
 
   body{
