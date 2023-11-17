@@ -30,9 +30,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('https://i.postimg.cc/nL9FbHQ4/USAF-photographer.jpg');
-    background-size: cover;
-    backdrop-filter: blur(2px);
+    background-color: var(--secondarycolor);
   }
 
   button {
@@ -66,7 +64,7 @@ body {
     font-family: var(--fontfamily1);
     list-style-type: none;
     padding: var(--padding1);
-    background-color: var(--secondarycolor);
+    background-color: #555;
     box-shadow: 0px 1px 5px rgba(81, 80, 80, 0.7);
   }
   
@@ -259,4 +257,24 @@ body {
 
 .products-section button{
   margin-top: 20px;
+}
+
+/* Visa */
+.fab.fa-cc-visa {
+  color: blue; /* Set the desired color for Visa */
+}
+
+/* MasterCard */
+.fab.fa-cc-mastercard {
+  color: red; /* Set the desired color for MasterCard */
+}
+
+/* PayPal */
+.fab.fa-cc-paypal {
+  color: #003087; /* Set the desired color for PayPal */
+}
+
+/* Apple Pay */
+.fab.fa-cc-apple-pay {
+  color: black; /* Set the desired color for Apple Pay */
 }

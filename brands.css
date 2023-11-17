@@ -64,7 +64,7 @@ body {
     font-family: var(--fontfamily1);
     list-style-type: none;
     padding: var(--padding1);
-    background-color: var(--secondarycolor);
+    background-color: #555;
     box-shadow: 0px 1px 5px rgba(81, 80, 80, 0.7);
   }
   
