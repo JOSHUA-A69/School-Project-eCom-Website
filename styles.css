@@ -303,7 +303,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('https://i.postimg.cc/6qGXFtbn/gv-Q9-Nh-QP8wbb-M32j-Xy4-V3j.jpg');
+  background-image: url('https://i.postimg.cc/sxS20QhZ/USAF-photographer.jpg');
   background-size: cover;
   backdrop-filter: blur(5px);
 }
@@ -442,6 +442,7 @@ footer input{
   color: var(--maincolor);
   border-bottom: solid 3px var(--maincolor);
 }
+
 
 
 
