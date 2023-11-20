@@ -479,7 +479,7 @@ footer input{
 }
 
 @media only screen and (max-width: 600px) {
-  body{
+  main{
     background-color: var(--secondarycolor);
   }
 
@@ -537,7 +537,7 @@ footer input{
 }
 
 @media only screen and (max-width: 450px) {
- body{
+ main{
    background-color: var(--secondarycolor);
  }
 
@@ -616,7 +616,7 @@ footer input{
 
 
 @media only screen and (max-width: 350px) {
-  body {
+  main {
     background-color: var(--secondarycolor);
   }
 
@@ -635,13 +635,17 @@ footer input{
   }
 
   .nav-web {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #1d1c29;
     z-index: 999;
+    font-size: small;
+  }
+
+  footer{
+    width: 80px;
   }
 }
-
