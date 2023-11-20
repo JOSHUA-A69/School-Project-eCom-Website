@@ -32,3 +32,34 @@ function handleButtonClick(buttonClass, message) {
 
 handleButtonClick('addtoCart', 'Added to Cart');
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get all elements with the "animated" class
+    var animatedElements = document.querySelectorAll(".animated");
+  
+    // Function to check if an element is in the viewport
+    function isElementInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+  
+    // Function to handle scroll events
+    function handleScroll() {
+      animatedElements.forEach(function (element) {
+        if (isElementInViewport(element)) {
+          element.classList.add("show");
+        }
+      });
+    }
+  
+    // Initial check on page load
+    handleScroll();
+  
+    // Listen for scroll events
+    window.addEventListener("scroll", handleScroll);
+  });
