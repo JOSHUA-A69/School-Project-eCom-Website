@@ -454,6 +454,7 @@ footer input{
   transform: translateY(0);
 }
 
+
 /*
 @media only screen and (min-width: 1201px) {
   main {
@@ -476,8 +477,6 @@ footer input{
     font-size: 1rem;
   }
   }
-
-
 
 @media only screen and (max-width: 1050px) {
    main{
@@ -778,7 +777,7 @@ footer input{
   }
 }
 
-/* 
+/*
 @media only screen and (max-width: 350px) {
   body {
     background-color: var(--secondarycolor);
