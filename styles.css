@@ -454,7 +454,7 @@ footer input{
   transform: translateY(0);
 }
 
-/* Media Queries */
+/*
 @media only screen and (min-width: 1201px) {
   main {
     background-image: url('https://i.postimg.cc/SQCPH7Vj/66aeb7fe732522fb1c57affe9ab4c55d.jpg');
@@ -778,7 +778,7 @@ footer input{
   }
 }
 
-/* Smaller Screens */
+/* 
 @media only screen and (max-width: 350px) {
   body {
     background-color: var(--secondarycolor);
