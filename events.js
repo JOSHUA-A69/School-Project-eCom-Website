@@ -73,14 +73,27 @@ document.addEventListener("DOMContentLoaded", function () {
         'https://i.postimg.cc/MKJGntWQ/HDR-photography1.jpg',
         'https://i.postimg.cc/bYkyfbQN/gv-Q9-Nh-QP8wbb-M32j-Xy4-V3j.jpg',
         'https://i.postimg.cc/8C4KqTHb/female-photographer-taking-photo.jpg',
-        'https://i.postimg.cc/J00zb7TY/Female-photographer-shooting-in-nature-1200x853.jpg',
-        
+        'https://i.postimg.cc/GpdMdQbr/2017-08-30-07-11-09.jpg',
     ];
 
     function changeBackground() {
+        // Fade out
+        backgroundContainer.classList.add('fade-out');
+
         // Change the background image
         backgroundContainer.style.backgroundImage = 'url(' + imageList[imageIndex] + ')';
-        
+
+        // Fade in
+        setTimeout(function () {
+            backgroundContainer.classList.remove('fade-out');
+            backgroundContainer.classList.add('fade-in');
+        }, 100);
+
+        // Reset classes for the next transition
+        setTimeout(function () {
+            backgroundContainer.classList.remove('fade-in');
+        }, 2000);
+
         // Increment the index for the next image
         imageIndex = (imageIndex + 1) % imageList.length;
     }
