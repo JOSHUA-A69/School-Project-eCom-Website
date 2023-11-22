@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var imageIndex = 0;
     var imageList = [
         'https://i.postimg.cc/xdpCq2Cf/USAF-photographer.jpg',
-        'https://i.postimg.cc/MKJGntWQ/HDR-photography1.jpg',
+        'https://i.postimg.cc/ZRPqkJYV/2017-04-07-09-59-14.jpg',
         'https://i.postimg.cc/bYkyfbQN/gv-Q9-Nh-QP8wbb-M32j-Xy4-V3j.jpg',
         'https://i.postimg.cc/8C4KqTHb/female-photographer-taking-photo.jpg',
         'https://i.postimg.cc/GpdMdQbr/2017-08-30-07-11-09.jpg',
