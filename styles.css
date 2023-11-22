@@ -225,7 +225,7 @@ button:hover {
 .hero-desc {
   margin-top: var(--margin1);
   font-size: 2rem;
-  color: var(--maincolor);
+  color: beige;
 }
 
 .hero-btn {
