@@ -63,3 +63,26 @@ document.addEventListener("DOMContentLoaded", function () {
     // Listen for scroll events
     window.addEventListener("scroll", handleScroll);
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var backgroundContainer = document.getElementById('changeImage');
+    var imageIndex = 0;
+    var imageList = [
+        'https://i.postimg.cc/xdpCq2Cf/USAF-photographer.jpg',
+        'https://i.postimg.cc/MKJGntWQ/HDR-photography1.jpg',
+        'https://i.postimg.cc/bYkyfbQN/gv-Q9-Nh-QP8wbb-M32j-Xy4-V3j.jpg',
+        
+    ];
+
+    function changeBackground() {
+        // Change the background image
+        backgroundContainer.style.backgroundImage = 'url(' + imageList[imageIndex] + ')';
+        
+        // Increment the index for the next image
+        imageIndex = (imageIndex + 1) % imageList.length;
+    }
+
+    // Change the background every 5 seconds (5000 milliseconds)
+    setInterval(changeBackground, 5000);
+});
