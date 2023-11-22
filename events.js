@@ -72,6 +72,8 @@ document.addEventListener("DOMContentLoaded", function () {
         'https://i.postimg.cc/xdpCq2Cf/USAF-photographer.jpg',
         'https://i.postimg.cc/MKJGntWQ/HDR-photography1.jpg',
         'https://i.postimg.cc/bYkyfbQN/gv-Q9-Nh-QP8wbb-M32j-Xy4-V3j.jpg',
+        'https://i.postimg.cc/8C4KqTHb/female-photographer-taking-photo.jpg',
+        'https://i.postimg.cc/J00zb7TY/Female-photographer-shooting-in-nature-1200x853.jpg',
         
     ];
 
