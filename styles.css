@@ -306,15 +306,6 @@ main {
   background-image: url('https://i.postimg.cc/SQCPH7Vj/66aeb7fe732522fb1c57affe9ab4c55d.jpg');
   background-size: cover;
   backdrop-filter: blur(5px);
-  transition: opacity 2s ease-in;
-}
-
-#changeImage.fade-out {
-  opacity: 0;
-}
-
-#changeImage.fade-in {
-  opacity: 1;
 }
 
 /* Footer styles */
