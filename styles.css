@@ -455,7 +455,3 @@ footer input{
 }
 
 
-.animated.show {
-  opacity: 1;
-  transform: translateY(0);
-}
