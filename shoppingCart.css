@@ -27,7 +27,7 @@ body {
   }
   
   main{
-    background-color: var(--bgcolor);
+    background-color: var(--secondarycolor);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -357,7 +357,7 @@ footer input{
 }
 
 .shopping-cart{
-  background-color: var(--bgcolor);
+  background-color: transparent;
 }
 
 #fav{
