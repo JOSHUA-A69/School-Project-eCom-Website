@@ -332,7 +332,6 @@ footer input{
   .brand-img2 img {
     border-radius: 8px;
     transition: transform 0.3s ease;
-    opacity: 50%;
   }
   
   .brand-img img:hover,
