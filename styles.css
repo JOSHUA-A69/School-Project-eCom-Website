@@ -486,6 +486,12 @@ footer input{
     width: 100%;
     margin-top: 10px;
   }
+
+  /* Additional adjustment for tablet */
+  .footer-input,
+  #subscribe-btn {
+    font-size: 14px;
+  }
 }
 
 /* Media Queries for Mobile Devices */
@@ -570,6 +576,12 @@ footer input{
   .search {
     width: 100%;
     margin-top: 10px;
+  }
+
+  /* Additional adjustments for smaller devices */
+  .footer-input,
+  #subscribe-btn {
+    font-size: 12px;
   }
 }
 
