@@ -208,7 +208,7 @@ button:hover {
   font-family: var(--fontfamily1);
   font-size: 2.5rem;
   background-color: transparent;
-  color: var(--textcolor);
+  color: beige;
   padding: 0;
   margin-bottom: var(--margin1);
 }
