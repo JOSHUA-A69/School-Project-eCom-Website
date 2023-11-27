@@ -27,7 +27,7 @@ body {
   }
   
   main{
-    background-color: var(--secondarycolor);
+    background-color: var(--bgcolor);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
