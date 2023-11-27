@@ -212,6 +212,7 @@ button:hover {
   padding: 0;
   margin-bottom: var(--margin1);
  background-color: #fff;
+ width: fit-content;
 }
 
 .hero-title-3 {
