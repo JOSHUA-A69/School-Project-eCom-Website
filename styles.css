@@ -456,4 +456,78 @@ footer input{
   transform: translateY(0);
 }
 
+/* Media Query for smaller devices and tablets */
+@media screen and (max-width: 600px) {
+  .nav-web {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-web a,
+  .header-spans,
+  .hero-content,
+  .hero-content-2,
+  .title,
+  .hero-title,
+  .hero-title-2,
+  .hero-title-3,
+  .hero-desc,
+  .hero-btn,
+  .icon-title,
+  .email,
+  #subscribe-input,
+  #subscribe-btn {
+    font-size: 1rem;
+  }
+
+  .company-name {
+    font-size: 1.2rem;
+  }
+
+  .hero-title,
+  .hero-title-2,
+  .hero-title-3 {
+    font-size: 1.5rem;
+  }
+
+  .hero-desc {
+    font-size: 1.2rem;
+  }
+
+  .hero-btn {
+    width: 8rem;
+  }
+
+  .icon-circle {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+  }
+
+  .shopping-cart button {
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  #subscribe-input,
+  #subscribe-btn {
+    font-size: 0.8rem;
+  }
+}
+
+/* Media Query for tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav-web {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
