@@ -511,6 +511,7 @@ footer input{
 
   main {
     padding: 1rem;
+    background-color: var(--bgcolor);
   }
 
   footer {
@@ -528,6 +529,9 @@ footer input{
   .nav-web {
     flex-direction: column;
     align-items: center;
+  }
+  main{
+    background-color: var(--bgcolor);
   }
 }
 
