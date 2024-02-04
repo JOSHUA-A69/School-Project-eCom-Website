@@ -1,10 +1,11 @@
-# School-Project-eCom-Website
-Mostly a front-end repository for eCom website final project.
+Project Overview: Front-end Repository for E-Commerce Website
 
-Inspired by: https://gosiacodes.github.io/E-Commerce-Online-Shop-Design/
+Inspired by the design principles showcased in GosiaCodes' E-Commerce Online Shop, 
+our team has developed a front-end repository for an e-commerce website as part of our final project.
 
-Our version: https://joshua-a69.github.io/School-Project-eCom-Website/index.html
+GitHub Pages:
+Explore our version of the project on GitHub Pages:  School Project E-Commerce Website.
 
-You are welcome to use this website as a template, or even better, create a customized version of it!
+Our project encompasses a detailed and professional description, outlining the purpose, features, and the technologies or frameworks employed.
 
-NOTE: As of right now, this website is not responsive
+Feel free to explore the repository and its live preview to gain insights into our e-commerce website. We appreciate your interest in our work!
