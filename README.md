@@ -6,6 +6,5 @@ our team has developed a front-end repository for an e-commerce website as part 
 GitHub Pages:
 Explore our version of the project on GitHub Pages:  <a href="https://joshua-a69.github.io/School-Project-eCom-Website/index.html">School Project E-Commerce Website</a>.
 
-Our project encompasses a detailed and professional description, outlining the purpose, features, and the technologies or frameworks employed.
 
 Feel free to explore the repository and its live preview to gain insights into our e-commerce website. We appreciate your interest in our work!
